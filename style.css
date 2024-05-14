@@ -1,5 +1,5 @@
 body {
-  background: #342e37;
+  background-color: black;  
 }
 
 .container {
@@ -15,7 +15,7 @@ h1 {
 }
 
 img {
-  max-width: 40%;
+  max-width: 45%;
   padding: 20px;
   display: block;
   margin: 0 auto;
@@ -31,21 +31,22 @@ form {
   cursor: pointer;
   display: block;
   position: relative;
-  background-color: goldenrod;
+  background-color: green;
   padding: 20px 80px;
   margin: 0 auto;
   border-radius: 20px;
   box-shadow: 0 6px #2e282a;
-}
+  }
 
 .btn a {
   color: black;
   font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 300;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 2px;
+  color: yellow;
 }
 
 .btn:hover {
@@ -57,3 +58,9 @@ form {
   box-shadow: none;
   top: 6px;
 }
+
+.coder {
+ background-color: goldenrod;
+border-radius: 50%;
+}
+
