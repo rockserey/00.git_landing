@@ -1,5 +1,5 @@
 body {
-  background-color: black;  
+  background-color: black;
 }
 
 .container {
@@ -36,7 +36,7 @@ form {
   margin: 0 auto;
   border-radius: 20px;
   box-shadow: 0 6px #2e282a;
-  }
+}
 
 .btn a {
   color: black;
@@ -60,7 +60,14 @@ form {
 }
 
 .coder {
- background-color: goldenrod;
-border-radius: 50%;
+  background-color: goldenrod;
+  border-radius: 50%;
 }
 
+footer {
+  color: darkorange;
+  font-family: monospace;
+  font-size: 2rem;
+  margin-top: 5%;
+  text-align: center;
+}
